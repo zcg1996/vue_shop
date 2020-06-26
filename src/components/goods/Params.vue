@@ -15,7 +15,7 @@
 				<el-col>
 					<span>选择商品分类：</span>
 					<!--选择商品分类的级联选择器-->
-					  <el-cascader v-model="selectedCateKeys" :options="catelist" :props="cateProps" @change="handleChange"></el-cascader>
+					<el-cascader v-model="selectedCateKeys" :options="catelist" :props="cateProps" @change="handleChange"></el-cascader>
 				</el-col>
 			</el-row>
 			<el-tabs v-model="activeName" @tab-click="handleTabClick">
